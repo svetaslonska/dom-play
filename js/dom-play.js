@@ -13,3 +13,25 @@
 */
 
 //document.querySelector(".hamlet").style.backgroundColor = "yellow";
+
+function highlight(el){
+
+    if(el.style.backgroundColor == 'white'){//change to blue
+        el.style.backgroundColor='blue';
+    }else{//change to white
+        el.style.backgroundColor='white';
+    }
+}
+
+function myAlert(){
+    alert("I am clicked!");
+}
+
+const spans = document.querySelectorAll("#play span");
+
+console.log(spans);
+
+for(const mySpan of spans){
+    mySpan.addEventListener("click", myAlert);
+
+}
