@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: palevioletred;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
+    color: #000000; 
     background: #ff0;
 }
 
@@ -47,10 +47,23 @@ a:hover {
     text-decoration: none;
 }
 
+
 footer {
     clear: both;
     text-align: center;
     padding: 1em;
+}
+
+.info {
+    text-align: center;
+    float: right;
+    
+}
+
+.pic {
+    float: right;
+    border-radius: 20px;
+    border: palevioletred solid 4px;
 }
 
 /* Responsive rules */
